@@ -10,7 +10,7 @@ class TwitterStreamer():
     """
     Class for streaming and processing live tweets.
     """
-    #def __init__(self):
+    #def __init__(self):  # using singleton pattern to create authentication instance after we move authentication logic to its own class TwitterAuthenticator() to be created in the other files
         #pass
 
     def stream_tweets(self, fetched_tweets_filename, hash_tag_list):
